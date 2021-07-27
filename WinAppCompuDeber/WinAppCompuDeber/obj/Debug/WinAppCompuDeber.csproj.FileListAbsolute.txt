@@ -1,0 +1,20 @@
+C:\Users\ediso\OneDrive\Escritorio\compu\deberes\WinAppCompuDeber\WinAppCompuDeber\bin\Debug\WinAppCompuDeber.exe.config
+C:\Users\ediso\OneDrive\Escritorio\compu\deberes\WinAppCompuDeber\WinAppCompuDeber\bin\Debug\WinAppCompuDeber.exe
+C:\Users\ediso\OneDrive\Escritorio\compu\deberes\WinAppCompuDeber\WinAppCompuDeber\bin\Debug\WinAppCompuDeber.pdb
+C:\Users\ediso\OneDrive\Escritorio\compu\deberes\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.csproj.AssemblyReference.cache
+C:\Users\ediso\OneDrive\Escritorio\compu\deberes\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.Form1.resources
+C:\Users\ediso\OneDrive\Escritorio\compu\deberes\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.Properties.Resources.resources
+C:\Users\ediso\OneDrive\Escritorio\compu\deberes\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.csproj.GenerateResource.cache
+C:\Users\ediso\OneDrive\Escritorio\compu\deberes\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.csproj.CoreCompileInputs.cache
+C:\Users\ediso\OneDrive\Escritorio\compu\deberes\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.exe
+C:\Users\ediso\OneDrive\Escritorio\compu\deberes\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.pdb
+D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\bin\Debug\WinAppCompuDeber.exe.config
+D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\bin\Debug\WinAppCompuDeber.exe
+D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\bin\Debug\WinAppCompuDeber.pdb
+D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.csproj.AssemblyReference.cache
+D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.Form1.resources
+D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.Properties.Resources.resources
+D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.csproj.GenerateResource.cache
+D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.csproj.CoreCompileInputs.cache
+D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.exe
+D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.pdb
