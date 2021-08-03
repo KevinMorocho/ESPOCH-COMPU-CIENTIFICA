@@ -20,7 +20,7 @@ namespace WinAppCompuDeber
 
         Bitmap lienzo = new Bitmap(700, 500);
 
-
+        //  Btn Segmentos
         private void button1_Click(object sender, EventArgs e)
         {
             Segmento S = new Segmento();
@@ -45,6 +45,7 @@ namespace WinAppCompuDeber
             EspacioT.Image = lienzo;
         }
 
+        //Btn Eje x/ Eje y
         private void button2_Click(object sender, EventArgs e)
         {
             Segmento S = new Segmento();
@@ -64,6 +65,7 @@ namespace WinAppCompuDeber
 
         }
 
+        //Btn Lazo
         private void button3_Click(object sender, EventArgs e)
         {
             Lazo L = new Lazo();
@@ -86,6 +88,7 @@ namespace WinAppCompuDeber
             EspacioT.Image = lienzo;
         }
 
+        //Btn Circunferencia
         private void button4_Click(object sender, EventArgs e)
         {
             Circunferencia c = new Circunferencia();
@@ -102,6 +105,8 @@ namespace WinAppCompuDeber
             EspacioT.Image = lienzo;
         }
 
+
+        //Btn Curvas
         private void button5_Click(object sender, EventArgs e)
         {
             Vector v = new Vector();
@@ -125,6 +130,7 @@ namespace WinAppCompuDeber
             EspacioT.Image = lienzo;
         }
 
+        //Btn Bandera Bicolor
         private void button6_Click(object sender, EventArgs e)
         {
             int sx = 50;
@@ -145,6 +151,7 @@ namespace WinAppCompuDeber
             EspacioT.Image = lienzo;
         }
 
+        //Btn Degradado de Bandera Bicolor
         private void button7_Click(object sender, EventArgs e)
         {
             int sx = 50;
@@ -160,6 +167,7 @@ namespace WinAppCompuDeber
             }
         }
 
+        //Btn Tapices o Paleta
         private void button8_Click(object sender, EventArgs e)
         {
                 Color[] paleta1 = new Color[16];
@@ -201,6 +209,7 @@ namespace WinAppCompuDeber
             
         }
 
+        //Btn Tapiz 1 
         private void button9_Click(object sender, EventArgs e)
         {
             Color[] paleta1 = new Color[16];
@@ -236,6 +245,7 @@ namespace WinAppCompuDeber
             }
         }
 
+        //Btn Tapiz 2
         private void button10_Click(object sender, EventArgs e)
         {
             Color[] paleta1 = new Color[16];
@@ -271,6 +281,7 @@ namespace WinAppCompuDeber
             }
         }
 
+        //Btn Tapiz 3
         private void button11_Click(object sender, EventArgs e)
         {
             Color[] paleta1 = new Color[16];
@@ -306,6 +317,7 @@ namespace WinAppCompuDeber
             }
         }
 
+        //Btn Tapiz 4
         private void button12_Click(object sender, EventArgs e)
         {
             Color[] paleta1 = new Color[16];
@@ -341,6 +353,7 @@ namespace WinAppCompuDeber
             }
         }
 
+        //Btn Tapiz 5
         private void button13_Click(object sender, EventArgs e)
         {
             Color[] paleta1 = new Color[16];
@@ -376,6 +389,7 @@ namespace WinAppCompuDeber
             }
         }
 
+        //Btn Mezcla Tapiz
         private void button14_Click(object sender, EventArgs e)
         {
             Color[] paleta1 = new Color[16];
@@ -462,6 +476,7 @@ namespace WinAppCompuDeber
             }
         }
 
+        //Btn Tapiz Madera
         private void button15_Click(object sender, EventArgs e)
         {
             Color[] paleta2 = new Color[16];
@@ -487,6 +502,7 @@ namespace WinAppCompuDeber
 
         }
 
+        //Btn Tapiz Piedra
         private void button16_Click(object sender, EventArgs e)
         {
             Color[] paleta2 = new Color[16];
@@ -509,6 +525,7 @@ namespace WinAppCompuDeber
             }
         }
 
+        //Btn Tapiz Jean
         private void button17_Click(object sender, EventArgs e)
         {
             Color[] paleta2 = new Color[16];
@@ -531,6 +548,7 @@ namespace WinAppCompuDeber
             }
         }
 
+        //Btn Tapiz Cesped
         private void button18_Click(object sender, EventArgs e)
         {
             Color[] paleta2 = new Color[16];
@@ -553,6 +571,7 @@ namespace WinAppCompuDeber
             }
         }
 
+        //Btn Dinamico Se mueve circulito
         private void button19_Click(object sender, EventArgs e)
         {
             Circunferencia c = new Circunferencia();
@@ -579,6 +598,7 @@ namespace WinAppCompuDeber
 
         }
 
+        //Btn Graáfica Vector estilo 3D
         private void button20_Click(object sender, EventArgs e)
         {
             double t = 0;
@@ -595,6 +615,7 @@ namespace WinAppCompuDeber
             } while (t <= 6.3);
         }
 
+        //Btn Prueba Parcial 2
         private void button21_Click(object sender, EventArgs e)
         {
             Vector v = new Vector();
@@ -619,6 +640,8 @@ namespace WinAppCompuDeber
             EspacioT.Image = lienzo;
         }
 
+
+        //Btn Prueba Reloj inversa
         private void button22_Click(object sender, EventArgs e)
         {
             Circunferencia c = new Circunferencia();
@@ -648,6 +671,8 @@ namespace WinAppCompuDeber
 
         }
 
+
+        //Btn Cubo en 3D
         private void button23_Click(object sender, EventArgs e)
         {
             Segmento3D s3d = new Segmento3D();
@@ -724,6 +749,7 @@ namespace WinAppCompuDeber
             s3d.Encender(lienzo);
         }
 
+        //Btn Paraboloide Hoja
         private void button24_Click(object sender, EventArgs e)
         {
             double t = -5;
@@ -748,6 +774,7 @@ namespace WinAppCompuDeber
             } while (t <= 5);
         }
 
+        //Btn Paraboloide
         private void button25_Click(object sender, EventArgs e)
         {
             double t = -5;
@@ -772,6 +799,7 @@ namespace WinAppCompuDeber
             } while (t <= 5);
         }
 
+        //Btn Paraboloide Hiperbolico
         private void button26_Click(object sender, EventArgs e)
         {
             double t = -5;
@@ -796,6 +824,7 @@ namespace WinAppCompuDeber
             } while (t <= 5);
         }
 
+        //Btn Cilindro 
         private void button27_Click(object sender, EventArgs e)
         {
             double t = 0;
@@ -820,6 +849,7 @@ namespace WinAppCompuDeber
             } while (t <= 2*Math.PI);
         }
 
+        //Btn Esfera
         private void button28_Click(object sender, EventArgs e)
         {
             double t = 0;
@@ -845,6 +875,7 @@ namespace WinAppCompuDeber
             } while (t <= 5);
         }
 
+        //Btn Figura Inventada
         private void button29_Click(object sender, EventArgs e)
         {
             double t = 0;
@@ -870,6 +901,7 @@ namespace WinAppCompuDeber
             } while (t <= 5);
         }
 
+        //Btn ejemplo choques
         private void button30_Click(object sender, EventArgs e)
         {
             Segmento s = new Segmento();

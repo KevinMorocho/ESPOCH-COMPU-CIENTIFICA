@@ -282,9 +282,9 @@ namespace WinAppCompuDeber
             this.groupBox1.Controls.Add(this.button13);
             this.groupBox1.Controls.Add(this.button6);
             this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Location = new System.Drawing.Point(29, 423);
+            this.groupBox1.Location = new System.Drawing.Point(29, 391);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(80, 15);
+            this.groupBox1.Size = new System.Drawing.Size(530, 183);
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Paletas";
@@ -415,7 +415,7 @@ namespace WinAppCompuDeber
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ClientSize = new System.Drawing.Size(865, 450);
+            this.ClientSize = new System.Drawing.Size(868, 601);
             this.Controls.Add(this.button30);
             this.Controls.Add(this.button29);
             this.Controls.Add(this.button28);
