@@ -869,5 +869,77 @@ namespace WinAppCompuDeber
                 t = t + dt;
             } while (t <= 5);
         }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            Segmento s = new Segmento();
+            s.x0 = -2;
+            s.xf = 3;
+            s.y0 = 0;
+            s.yf = 7.1;
+            s.color0 = Color.Black;
+            s.Encender(lienzo);
+            Segmento s1 = new Segmento();
+            s1.x0 = 3;
+            s1.xf = 10;
+            s1.y0 = 7.1;
+            s1.yf = 0;
+            s1.color0 = Color.Black;
+            s1.Encender(lienzo);
+            Segmento s2 = new Segmento();
+            s2.x0 = 10;
+            s2.xf = 3;
+            s2.y0 = 0;
+            s2.yf = -7.1;
+            s2.color0 = Color.Black;
+            s2.Encender(lienzo);
+            EspacioT.Image = lienzo;
+            Circunferencia c = new Circunferencia();
+            c.Radio = 0.5;
+            double t = 0;
+            do
+            {
+                c.x0 = (-2 * (1 - t)) + (3 * t);
+                c.y0 = (0 * (1 - t)) + (7.1 * t);
+                c.color0 = Color.Red;
+                c.Encender(lienzo);
+                EspacioT.Image = lienzo;
+                EspacioT.Refresh();
+                Thread.Sleep(20);
+                c.apagar(lienzo);
+                EspacioT.Image = lienzo;
+                t += 0.2;
+            } while (t <= 1);
+            c.Radio = 0.5;
+            t = 0;
+            do
+            {
+                c.x0 = (3 * (1 - t)) + (10 * t);
+                c.y0 = (7.1 * (1 - t)) + (0 * t);
+                c.color0 = Color.Red;
+                c.Encender(lienzo);
+                EspacioT.Image = lienzo;
+                EspacioT.Refresh();
+                Thread.Sleep(20);
+                c.apagar(lienzo);
+                EspacioT.Image = lienzo;
+                t += 0.2;
+            } while (t <= 1);
+            c.Radio = 0.5;
+            t = 0;
+            do
+            {
+                c.x0 = (10 * (1 - t)) + (3 * t);
+                c.y0 = (0 * (1 - t)) + (-7.1 * t);
+                c.color0 = Color.Red;
+                c.Encender(lienzo);
+                EspacioT.Image = lienzo;
+                EspacioT.Refresh();
+                Thread.Sleep(200);
+                c.apagar(lienzo);
+                EspacioT.Image = lienzo;
+                t += 0.3;
+            } while (t <= 1);
+        }
     }
 }

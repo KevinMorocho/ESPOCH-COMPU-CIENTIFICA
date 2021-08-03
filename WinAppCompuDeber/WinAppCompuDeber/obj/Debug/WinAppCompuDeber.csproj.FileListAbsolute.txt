@@ -18,3 +18,13 @@ D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeb
 D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.csproj.CoreCompileInputs.cache
 D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.exe
 D:\Kevin Respaldos\Desktop\Noveno\Computación Científica\Tareas\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.pdb
+D:\Kevin Respaldos\Documents\GitHub\ESPOCH-COMPU-CIENTIFICA\WinAppCompuDeber\WinAppCompuDeber\bin\Debug\WinAppCompuDeber.exe.config
+D:\Kevin Respaldos\Documents\GitHub\ESPOCH-COMPU-CIENTIFICA\WinAppCompuDeber\WinAppCompuDeber\bin\Debug\WinAppCompuDeber.exe
+D:\Kevin Respaldos\Documents\GitHub\ESPOCH-COMPU-CIENTIFICA\WinAppCompuDeber\WinAppCompuDeber\bin\Debug\WinAppCompuDeber.pdb
+D:\Kevin Respaldos\Documents\GitHub\ESPOCH-COMPU-CIENTIFICA\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.csproj.AssemblyReference.cache
+D:\Kevin Respaldos\Documents\GitHub\ESPOCH-COMPU-CIENTIFICA\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.Form1.resources
+D:\Kevin Respaldos\Documents\GitHub\ESPOCH-COMPU-CIENTIFICA\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.Properties.Resources.resources
+D:\Kevin Respaldos\Documents\GitHub\ESPOCH-COMPU-CIENTIFICA\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.csproj.GenerateResource.cache
+D:\Kevin Respaldos\Documents\GitHub\ESPOCH-COMPU-CIENTIFICA\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.csproj.CoreCompileInputs.cache
+D:\Kevin Respaldos\Documents\GitHub\ESPOCH-COMPU-CIENTIFICA\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.exe
+D:\Kevin Respaldos\Documents\GitHub\ESPOCH-COMPU-CIENTIFICA\WinAppCompuDeber\WinAppCompuDeber\obj\Debug\WinAppCompuDeber.pdb
