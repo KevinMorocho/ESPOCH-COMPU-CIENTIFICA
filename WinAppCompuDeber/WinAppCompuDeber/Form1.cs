@@ -973,5 +973,25 @@ namespace WinAppCompuDeber
                 t += 0.3;
             } while (t <= 1);
         }
+
+        //Btn 1 Onda
+        private void button31_Click(object sender, EventArgs e)
+        {
+            Onda o = new Onda();
+            o.v = 9.3;
+            o.w = 1.5;
+            o.t = 0;
+            o.graf(lienzo);
+            EspacioT.Image = lienzo;
+        }
+
+        //Btn Limpiar
+        private void button32_Click(object sender, EventArgs e)
+        {
+            Vector v = new Vector();
+            Bitmap lienzo = new Bitmap(700, 500);
+            v.apagar(lienzo);
+            EspacioT.Image = lienzo;
+        }
     }
 }

@@ -9,6 +9,14 @@ namespace WinAppCompuDeber
 {
     class Vector
     {
+        public static int sx1 = 0;
+        public static int sx2 = 700;
+        public static int sy1 = 0;
+        public static int sy2 = 500;
+        public static double x1 = -10;
+        public static double x2 = 10;
+        public static double y1 = -7.1;
+        public static double y2 = 7.1;
         public double x0 { get; set; }
         public double y0 { get; set; }
         public Color color0 { get; set; }
@@ -38,6 +46,11 @@ namespace WinAppCompuDeber
             this.color0 = Color.White;
             Encender(lienzo);
 
+        }
+        public  void transforma(int sx, int sy, out double x, out double y)
+        {
+            x = (((sx - sx2) * (x2 - x1)) / (sx2 - sx1)) + x2;
+            y = (((sy - sy1) * (y1 - y2)) / (sy2 - sy1)) + y2;
         }
     }
 }
