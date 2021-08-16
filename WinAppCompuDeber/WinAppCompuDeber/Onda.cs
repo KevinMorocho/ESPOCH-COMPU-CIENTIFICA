@@ -66,6 +66,34 @@ namespace WinAppCompuDeber
                 }
             }
         }
+
+        //Interferencia 2 Ondas
+        public void interferencia(Bitmap pantalla)
+        {
+            int i, j, colorO;
+
+            for (i = 0; i < 700; i++)
+            {
+                for (j = 0; j < 500; j++)
+                {
+                    Procesos.transforma(i, j, out x, out y);
+                    z1 = w * (Math.Sqrt((x - 0) * (x - 0) + (y - 3) * (y - 3))) - v * t;
+                    z2 = w * (Math.Sqrt((x - 0) * (x - 0) + (y + 3) * (y + 3))) - v * t;
+                    z3 = w * (Math.Sqrt((x - 0.5) * (x - 0.5) + (y + 0.5) * (y + 0.5))) - v * t;//tercera onda...
+
+                    z1 = Math.Sin(z1) + 1;
+                    z2 = Math.Sin(z2) + 1;
+                    z3 = Math.Sin(z3) + 1;
+
+                    z = z1 + z2 + z3;
+                    colorO = (int)(z * 1.75);
+                    c = Paleta[colorO];
+                    pantalla.SetPixel(i, j, c);
+
+                }
+
+            }
+        }
     }
 }
 

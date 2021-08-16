@@ -977,12 +977,27 @@ namespace WinAppCompuDeber
         //Btn 1 Onda
         private void button31_Click(object sender, EventArgs e)
         {
+            
             Onda o = new Onda();
-            o.v = 9.3;
+            double t = 0;
+            //Sin animacion
+            /*o.v = 9.3;
             o.w = 1.5;
             o.t = 0;
             o.graf(lienzo);
-            EspacioT.Image = lienzo;
+            EspacioT.Image = lienzo;*/
+
+           //Con animacion
+            do
+            {
+                o.v = 9.3;
+                o.w = 1.5;
+                o.graf(lienzo);
+                EspacioT.Image = lienzo;
+                EspacioT.Refresh();
+                t = t + 0.1;
+                o.t = t;
+            } while (t <= 4);
         }
 
         //Btn Limpiar
@@ -992,6 +1007,32 @@ namespace WinAppCompuDeber
             Bitmap lienzo = new Bitmap(700, 500);
             v.apagar(lienzo);
             EspacioT.Image = lienzo;
+        }
+
+        //Btn 2 ondas
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            Onda o = new Onda();
+            double t = 0;
+            //sin animacion
+            /*o.v = 9.3;
+            o.w = 1.5;
+            o.t = 0;
+            o.interferencia(lienzo);
+            EspacioT.Image = lienzo;*/
+
+            //Con animacion
+            do
+            {
+                o.v = 9.3;
+                o.w = 1.5;
+                o.interferencia(lienzo);
+                EspacioT.Image = lienzo;
+                EspacioT.Refresh();
+                t = t + 0.1;
+                o.t = t;
+            } while (t <= 4);
         }
     }
 }
