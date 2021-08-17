@@ -1034,5 +1034,53 @@ namespace WinAppCompuDeber
                 o.t = t;
             } while (t <= 4);
         }
+
+        //Btn onda 3D
+        private void button34_Click(object sender, EventArgs e)
+        {
+            Onda o = new Onda();
+            double t = 0;
+            //Sin animacion
+            /*o.v = 9.3;
+            o.w = 2.5;
+            o.t = 0;
+            o.grafOnda3d(lienzo);
+            EspacioT.Image = lienzo;*/
+
+            //Animacion
+            do
+            {
+                o.v = 9.3;
+                o.w = 1.5;
+                o.t = t;
+                o.grafOnda3d(lienzo);
+                EspacioT.Image = lienzo;
+                Refresh();
+                lienzo = null;
+                lienzo = new Bitmap(700, 500);
+                Thread.Sleep(5);
+                t = t + 0.01;
+            } while (t <= 4);
+        }
+
+        //Btn Animacion de 2 ondas 3D
+        private void button35_Click(object sender, EventArgs e)
+        {
+            Onda o = new Onda();
+            double t = 0;
+            do
+            {
+                o.v = 9.3;
+                o.w = 2.5;
+                o.t = t;
+                o.ondaMoverx2(lienzo);
+                EspacioT.Image = lienzo;
+                Refresh();
+                lienzo = null;
+                lienzo = new Bitmap(700, 500);
+                Thread.Sleep(5);
+                t = t + 0.01;
+            } while (t <= 4);
+        }
     }
 }

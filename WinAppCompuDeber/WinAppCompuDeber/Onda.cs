@@ -12,7 +12,7 @@ namespace WinAppCompuDeber
         public double t;
         public int color;
         public Color c;
-        public double v, w, w1, w2, x, y, z, z1, z2, z3;
+        public double v, w, w1, w2, x, y, z, z1, z2, z3,m=0.6;
         public Color[] Paleta = new Color[16];
         public Onda()
         {
@@ -93,6 +93,62 @@ namespace WinAppCompuDeber
                 }
 
             }
+        }
+
+        public void grafOnda3d(Bitmap pantalla) 
+        {
+            Vector3D v3d = new Vector3D();
+            x = -7;
+            do
+            {
+                y = -5;
+                do
+                {
+                    v3d.x0 = x;
+                    v3d.y0 = y;
+                    z = w * (Math.Sqrt((x - 0) * (x - 0) + (y - 0) * (y - 0))) - v * t;
+                    z = m * Math.Sin(z);
+                    v3d.z0 = z;
+                    v3d.color0 = Color.Blue;
+                    v3d.Encender(pantalla);
+                    y = y + 0.1;
+                } while (y <= 5);
+                x = x + 0.1;
+            } while (x <= 7);
+
+        }
+
+        public void ondaMoverx2(Bitmap bitmap)
+        {
+            Vector3D v3d = new Vector3D();
+            double  p, p2, z, z0;
+            
+            x = -10;
+            do
+            {
+                y = -5;
+                do
+                {
+                    v3d.x0 = x;
+                    v3d.y0 = y;
+
+                    p = w * (Math.Sqrt((x - 0) * (x - 0) + (y - 0) * (y - 0))) - v * t;
+                    z = 0.2 * Math.Sin(p);
+                    v3d.color0 = Color.Blue;
+                    v3d.z0 = z;
+                    v3d.Encender(bitmap);
+
+                    p2 = w * (Math.Sqrt((x + 3) * (x + 3) + (y - 0) * (y - 0))) - v * t;
+                    z0 = 0.2 * Math.Sin(p2);
+                    v3d.z0 = z0;
+                    v3d.color0 = Color.Black;
+                    v3d.Encender(bitmap);
+
+                    y = y + 0.1;
+                } while (y <= 5);
+                x = x + 0.1;
+            } while (x <= 10);
+
         }
     }
 }

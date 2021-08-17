@@ -64,6 +64,8 @@ namespace WinAppCompuDeber
             this.button31 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.EspacioT)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -443,12 +445,34 @@ namespace WinAppCompuDeber
             this.button33.UseVisualStyleBackColor = true;
             this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
+            // button34
+            // 
+            this.button34.Location = new System.Drawing.Point(742, 354);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(75, 23);
+            this.button34.TabIndex = 33;
+            this.button34.Text = "onda 3d";
+            this.button34.UseVisualStyleBackColor = true;
+            this.button34.Click += new System.EventHandler(this.button34_Click);
+            // 
+            // button35
+            // 
+            this.button35.Location = new System.Drawing.Point(749, 399);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(75, 23);
+            this.button35.TabIndex = 34;
+            this.button35.Text = "2 onda 3d";
+            this.button35.UseVisualStyleBackColor = true;
+            this.button35.Click += new System.EventHandler(this.button35_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(868, 601);
+            this.Controls.Add(this.button35);
+            this.Controls.Add(this.button34);
             this.Controls.Add(this.button33);
             this.Controls.Add(this.button32);
             this.Controls.Add(this.button31);
@@ -512,6 +536,8 @@ namespace WinAppCompuDeber
         private System.Windows.Forms.Button button31;
         private System.Windows.Forms.Button button32;
         private System.Windows.Forms.Button button33;
+        private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.Button button35;
     }
 }
 
