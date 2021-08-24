@@ -1082,5 +1082,14 @@ namespace WinAppCompuDeber
                 t = t + 0.01;
             } while (t <= 4);
         }
+
+        //Btn Cuerda Vibrante
+        private void button36_Click(object sender, EventArgs e)
+        {
+            CuerdaV cv = new CuerdaV();
+            cv.tp = 0.05;
+            cv.Grafico(lienzo);
+            EspacioT.Image = lienzo;
+        }
     }
 }
